@@ -1,0 +1,54 @@
+body{
+    background-color: black
+}
+.container{
+    background-color: white;
+    border-radius: 5px;
+}
+.contenido{
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 30px;
+}
+.productos{
+	flex:20%;
+	color: #0b5c22;
+	border: 1px solid #0b5c22;
+	margin: 7px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px #0b5c22;
+	text-align: center;
+}
+.cart{
+    background-image: url("img/cart-bg.png");
+    width: 70px;
+    height: 82px;
+    font-size: 2.5em;
+    
+}
+#numero{
+    padding-top: 10px;
+    color: white;
+    padding-left: 17px;
+}
+#home{
+    padding-right: 5px;
+}
+#login{
+    padding-left: 5px;
+}
+#opciones{
+    margin-right: 2px;
+}
+#categorias{
+    padding-top: 15px;
+} 
+#barratop{
+    background-color: aliceblue;
+    border-radius: 8px;
+
+}
+#navbarColor01{
+   
+    margin-left: 27%;
+}
